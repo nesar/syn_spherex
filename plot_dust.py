@@ -14,6 +14,6 @@ for dust2val in dust_range:
 plt.ylabel(' Flux per unit wavelength (ergs/s/cm^2/Angstrom)')
 plt.xlabel(' Restframe Wavelength (Angstrom) ')
 plt.yscale('log')
-plt.ylim(1e-20, 1e-11)
+plt.ylim(1e-35, 1e-11)
 plt.legend()
 plt.show()
